@@ -1,6 +1,8 @@
 import colors from "tailwindcss/colors";
 import GameBoard from "@/app/gameBoard";
 
+export const dynamic = 'force-dynamic'
+
 const players = [
  { name: "Red", color: colors.red["500"] },
  { name: "Blue", color: colors.blue["500"] },
